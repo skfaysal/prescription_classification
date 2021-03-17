@@ -1,4 +1,4 @@
-# prescription_classification
+# prescription_classification Model
 
 1.Create a folder **"TrainData"** inside *"train and test"* folder\
 2.Create 3 folder named "test" ,"train","validation" inside **"TrainData"**\
@@ -7,3 +7,5 @@
 5.Put ML model in the **"output"** folder
 6.For training : **python3 train_resnet50.py --img_row 224 --img_col 224 --epochs 25 --batch_size 32 --val_split 0.25**\
 7.For testing: **python3 test.py**
+
+# Deployment and API
